@@ -1,0 +1,50 @@
+
+
+canvas {
+	background-color: #000000;
+	border:2px solid;
+	border-color:#000000;
+	border-radius:10px;
+}
+
+#down, #middle, #up , #fondo, #tubo, #tubo2, #cielo, #nombre, #guardar{
+	display: none;
+}
+
+
+#atras {
+	align-content: center;
+	float: left;
+	border-radius: inherit;
+	text-align: center;
+	background-color: rgba(253, 62, 62, 0.733);
+	color: wheat;
+}
+
+aside {
+	float: right;
+	clear: none;
+	margin:2em;
+	padding:1em;
+	text-align: center;
+}
+
+section {
+	background-color:#15af9579;
+	border:2px solid;
+	border-color:#000000;
+	border-radius:15px;
+	margin:2em;
+	padding:1em;
+	text-align: center;
+}
+
+#iniciar , #reiniciar {
+	margin:0.3em;
+	color:#000000;
+}
+
+#reiniciar{
+	display:none;
+}
+

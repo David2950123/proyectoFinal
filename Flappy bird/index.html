@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Flappy bird</title>
+	<link rel="stylesheet" href="estilos/estilos.css" type="text/css" media="screen">
+	<script languaje="JavaScript" src="scripts/jquery.min.js"></script>
+	<script languaje="JavaScript" src="scripts/personaje.js"></script>
+	<script languaje="JavaScript" src="scripts/principal.js"></script>
+	<script languaje="JavaScript" src="scripts/fondo.js"></script>
+	<script languaje="JavaScript" src="scripts/tubo.js"></script>
+	<script languaje="JavaScript" src="scripts/tubo2.js"></script>
+
+</head>
+
+<body background="../images/Cascada.jpg">
+	<title>Flappy bird</title>
+	<aside>
+		<h1>Flappy bird</h1>
+		<hr>
+		<h3>Controles del juego</h3>
+		<img id="teclado" src="imagenes/teclado.png" />
+		<br>
+		<br>
+		<div id="recomendaciones"></div>
+		<button id="iniciar">iniciar</button>
+		<hr>
+		<form name="formulario">Nombre
+			<label for="nombre"></label><input type="text" name="nombre" id="nombre" />
+		</form>
+		<button id="guardar">guardar</button>
+		<p>David Camilo Rodríguez</p>
+		<p>Lógica de Programación</p>
+		<p>20201180101</p>
+	</aside>
+	<section>
+		<button type="button" id="atras" onClick="history.go(-1);">Back</button>
+		<canvas id="lienzo" width="640" height="480">
+			Su navegador no soporta canvas
+		</canvas>
+		<audio id="golpe">
+			<source src="audios/golpe.ogg" type="audio/ogg">
+			<source src="audios/golpe.mp3" type="audio/mpeg">
+			Tu navegador no es compatible
+		</audio>
+		<audio id="fondoA">
+			<source src="audios/fondo.ogg" type="audio/ogg">
+			<source src="audios/fondo.mp3" type="audio/mpeg">
+			Tu navegador no es compatible
+		</audio>
+		<audio id="aleteo">
+			<source src="audios/aleteo.ogg" type="audio/ogg">
+			<source src="audios/aleteo.mp3" type="audio/mpeg">
+			Tu navegador no es compatible
+		</audio>
+	</section>
+	<img id="down" src="Imagenes/down.png">
+	<img id="middle" src="Imagenes/middle.png">
+	<img id="up" src="Imagenes/up.png">
+	<img id="fondo" src="Imagenes/fondo.png">
+	<img id="tubo" src="Imagenes/tubo.png">
+	<img id="tubo2" src="Imagenes/tubo2.png">
+	<img id="cielo" src="Imagenes/cielo.png">
+	<file id="puntaje" src="Puntaje/puntaje.txt">
+</body>
+
+</html>
